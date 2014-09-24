@@ -1,7 +1,7 @@
 /*
  * Clase para obtener resultados de distintas operaciones aritméticas.
  */
-public class Arithmetic {
+public class operacionesCirculo {
 
 
  //Método que suma dos números enteros y devuelve el resultado.
@@ -18,7 +18,7 @@ public class Arithmetic {
  public double area (double radio) {
 
 	double result = 0;
-	result = 3,1415926535897932384626433832795 * Math.pow(radio,2);
+	result = 3.1415926535897932384626433832795 * Math.pow(radio,2);
 	return result;
  }
 
