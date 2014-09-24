@@ -5,7 +5,7 @@ public class operacionesCirculo {
 
 
  //Método que suma dos números enteros y devuelve el resultado.
- public double diam (double radio) {
+ public double circun (double radio) {
 
 	double result = 0;
 	result = 6.283185307179586476925286766559 * radio;

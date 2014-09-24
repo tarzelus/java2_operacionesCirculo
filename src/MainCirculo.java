@@ -9,7 +9,7 @@ public class MainCirculo {
 	public static void main (String args[]) {
 
 
-		double radio, resultadoDiametro, resultadoArea;
+		double radio, resultadoCircun, resultadoArea;
 		operacionesCirculo operaciones = new operacionesCirculo();
 		
 		Scanner sc = new Scanner(System.in);
@@ -17,10 +17,10 @@ public class MainCirculo {
 		radio = sc.nextInt();
 
 
-		resultadoDiametro = operaciones.diam(radio);
+		resultadoCircun = operaciones.circun(radio);
 		resultadoArea = operaciones.area(radio);
 
-		System.out.println("\nEl del diametro de la circunferencia es: " + resultadoDiametro +"cm");
+		System.out.println("\nla ciercunferencia del circulo es: " + resultadoCircun +"cm");
 		System.out.println("\nEl área de la circunferencia es: " + resultadoArea + "cm²");
 	
 		System.out.println("\n\nEGUN ONA IZAN!!\n");
